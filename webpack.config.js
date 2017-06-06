@@ -10,6 +10,7 @@ module.exports={
 	output:{
 		path:path.resolve(__dirname,'build'),
 		filename:'[name].js',
+		chunkFilename:'[name]-[id].js',
 		publicPath:'/',
 	},
 	module:{
